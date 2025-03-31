@@ -18,4 +18,11 @@ public class Krug {
     public void setRadijus(double radijus){
         this.radijus = radijus;
     }
+
+    public double getOpseg(){
+        return Math.PI * 2 * radijus;
+    }
+    public double getPovrsina(){
+        return Math.pow(radijus, 2) * Math.PI;
+    }
 }

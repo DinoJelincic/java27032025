@@ -28,5 +28,12 @@ public class Pravokutnik {
         this.stranicaB = stranicaB;
     }
 
+    public double getOpseg(){
+        return 2 * (stranicaA + stranicaB);
+    }
+    public double getPovrsina(){
+        return stranicaA * stranicaB;
+    }
+
 
 }
