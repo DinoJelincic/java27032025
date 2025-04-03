@@ -7,12 +7,10 @@ public class Pravokutnik extends GeometrijskiLik {
         this.stranicaA = stranicaA;
         this.stranicaB = stranicaB;
     }
-
     @Override
     public double opseg() {
         return 2 * (stranicaA + stranicaB);
     }
-
     @Override
     public double povrsina() {
         return stranicaA * stranicaB;
